@@ -208,7 +208,7 @@
 - Updated FontAwesome to 4.3.0
 - Added ChartJS 1.0.1
 - Removed iCheck dependency
-- Created Dashboard 2.0
+- Created Jenova 2.0
 - Created new Chat widget (DirectChat)
 - Added transitions to DirectChat
 - Added contacts pane to DirectChat
