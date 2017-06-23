@@ -3,5 +3,5 @@
  Run
  1. virtualenv .jenova
  2. source .jenova/bin/activate
- 3. pip -r requirements.txt
+ 3. pip install -r requirements.txt
  4. python manage.py runserver
