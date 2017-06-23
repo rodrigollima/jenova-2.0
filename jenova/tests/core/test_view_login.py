@@ -1,4 +1,5 @@
 from django.test import TestCase
+from jenova.core.forms import LoginForm
 
 class GetLoginTest(TestCase):
     def setUp(self):
