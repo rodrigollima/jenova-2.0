@@ -1,3 +1,5 @@
 .jenova
 .venv
 __pycache__
+*.pyc
+.idea
