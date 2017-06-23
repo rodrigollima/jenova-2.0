@@ -9,3 +9,11 @@
  pip install -r requirements.txt
  python manage.py runserver
  ```
+
+```console
+ git clone https://github.com/LeandroBP/jenova-2.0.git
+ virtualenv .jenova
+ source .jenova/bin/activate
+ pip install -r requirements.txt
+ python manage.py runserver
+```
