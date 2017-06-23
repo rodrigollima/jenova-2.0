@@ -13,7 +13,7 @@ class GetLoginTest(TestCase):
     def test_html(self):
         tags = (
             ('<form', 1),
-            ('<input', 3),
+            ('<input', 4),
             ('<button', 1),
             ('type="email"',1),
             ('type="checkbox"',1),
