@@ -1,7 +1,6 @@
 from django.contrib.auth import authenticate
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
-from jenova.core.forms import LoginForm
 # Create your views here.
 
 #@login_required(login_url='/login')
