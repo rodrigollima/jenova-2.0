@@ -9,7 +9,12 @@ from jenova.domain import views as domain_views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', core.dashboard),
+<<<<<<< HEAD
     
+=======
+    url(r'^area51', core.dashboard2),
+    #url(r'^login', core.login, name='login'),
+>>>>>>> 0dd51997b95f05a1b4374050d498850903221df3
     url(r'^login/$', auth_views.login, name='login'),
     url(r'^logout/$', auth_views.logout, name='logout'),
 
