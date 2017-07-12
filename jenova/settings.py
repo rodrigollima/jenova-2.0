@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 	'bootstrap3',
     ##apps##
     'jenova.core',
+    'jenova.client',
     'jenova.domain',
     'jenova.mxgateway_api',
     'jenova.powerdns',
