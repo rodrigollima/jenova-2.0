@@ -6,8 +6,6 @@ from jenova.core import views as core
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', core.dashboard),
-    url(r'^area51', core.dashboard2),
-    #url(r'^login', core.login, name='login'),
     url(r'^login/$', auth_views.login, name='login'),
     url(r'^logout/$', auth_views.logout, name='logout'),
 ]
