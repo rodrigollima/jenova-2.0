@@ -5,6 +5,7 @@ from jenova.core import views as core
 from jenova.client.views import ClientView
 from jenova.client.api.views import ClientApiView
 from jenova.domain import views as domain_views
+from jenova.domain.api.views import DomainApiView
 
 
 urlpatterns = [
@@ -18,8 +19,8 @@ urlpatterns = [
     url(r'^logout/$', auth_views.logout, name='logout'),
 
     url(r'^domain/', domain_views.list, name='domain_list'),
-    url(r'^api/client/', DomainApiView.as_view())
+    url(r'^api/domain/', DomainApiView.as_view()),
 
     url(r'^client/', ClientView.as_view()),
-    url(r'^api/client/', ClientApiView.as_view())
+    url(r'^api/client/', ClientApiView.as_view()),
 ]
