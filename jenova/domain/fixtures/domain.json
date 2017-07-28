@@ -1,0 +1,52 @@
+[
+  {
+    "model": "domain.domain",
+    "pk": 1,
+    "fields": {
+      "name": "google.com",
+      "client_id": "1",
+      "active" : "True",
+      "created_at":"2017-07-26 18:00:00"
+    }
+  },
+  {
+    "model": "domain.domain",
+    "pk": 2,
+    "fields": {
+      "name": "globo.com.br",
+      "client_id": "1",
+      "active" : "True",
+      "created_at":"2017-07-26 18:00:00"
+    }
+  },
+  {
+    "model": "domain.domain",
+    "pk": 3,
+    "fields": {
+      "name": "uol.com.br",
+      "client_id": "1",
+      "active" : "True",
+      "created_at":"2017-07-26 18:00:00"
+    }
+  },
+  {
+    "model": "domain.domain",
+    "pk": 4,
+    "fields": {
+      "name": "terra.com.br",
+      "client_id": "1",
+      "active" : "True",
+      "created_at":"2017-07-26 18:00:00"
+    }
+  },
+  {
+    "model": "domain.domain",
+    "pk": 5,
+    "fields": {
+      "name": "globo.com.br",
+      "client_id": "1",
+      "active" : "True",
+      "created_at":"2017-07-26 18:00:00"
+    }
+  }
+]
